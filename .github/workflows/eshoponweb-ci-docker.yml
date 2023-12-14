@@ -3,18 +3,6 @@ name: eShopOnWeb-Docker-ACR Build and Push
 
 on: [push, workflow_dispatch]
 
-resources:
-  repositories:
-    - repository: self
-      trigger: none
-
-
-#env:
-#  azureServiceConnection: 'AZURE_CREDENTIALS'
-#  subscriptionId: '341a411d-cdb3-4bb8-9db6-4955c9bcb54b'
-#  resourceGroup: 'rg-az400-container-xomnhala'
-#  location: 'eastus'
-
 jobs:
   docker:
     runs-on: ubuntu-latest
