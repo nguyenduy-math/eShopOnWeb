@@ -7,7 +7,7 @@ resources:
       trigger: none
 
 variables:
-  azureServiceConnection: 'azure-connection'
+  azureServiceConnection: 'AZURE_CREDENTIALS'
   subscriptionId: '341a411d-cdb3-4bb8-9db6-4955c9bcb54b'
   resourceGroup: 'rg-az400-container-xomnhala'
   location: 'eastus'
