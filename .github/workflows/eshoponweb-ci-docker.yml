@@ -2,8 +2,11 @@
 name: eShopOnWeb-Docker-ACR Build and Push
 
 #Triggers (uncomment line below to use it)
-on: [push, workflow_dispatch]
-
+#on: [push, workflow_dispatch]
+on:
+  push:
+    branches:
+      - 'main'
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
   RESOURCE-GROUP: rg-az400-eshoponweb-xomnhala
